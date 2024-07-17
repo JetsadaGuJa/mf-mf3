@@ -1,0 +1,7 @@
+version: "3"
+services:
+  mf3:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "3004:80"
